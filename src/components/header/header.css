@@ -9,8 +9,8 @@ header {
     align-items: center;
     width: 100%;
     color: white;
-    background-color: #1a1a1a;
-    height : 100px;
+    background-color: #010619;
+    height : 120px;
 }
 
 .bg {
@@ -43,24 +43,22 @@ li {
 @media (max-width: 624px) {
     header {
         flex-direction: column;
-        height: 200px;
-    }
-    
-    .logo {
-        margin: 0 auto;
-        padding-left: 0;
+        height: auto;
+        justify-content: center;
     }
 
-    .navigation {
-        flex-direction: column;
-        align-items: center;
+    .logo {
+        margin-right: 0;
+        padding: 51px 0;
+    }
+
+    ul {
         width: 100%;
-        margin-top: 100px;
+        text-align: center;
     }
 
     li {
         display: block;
-        width: 100%;
-        text-align: center;
+        padding: 10px 0;
     }
 }
