@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -14,7 +9,8 @@ header {
 }
 
 .bg {
-    width: auto;
+    width: 468px;
+    height: 120px;
     position: absolute;
     top: 0;
     left: 0;
