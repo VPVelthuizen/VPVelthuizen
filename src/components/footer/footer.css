@@ -1,0 +1,40 @@
+footer {
+    background-color: #010619;
+    background: #010619;
+}
+
+.footerLogo {
+    padding: 20px 0px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+a {
+    display: inline;
+    padding: 10px 50px;
+}
+
+@media (max-width: 660px)  {
+    .links {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    a {
+        padding: 5px 0;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    
+.footerLogo {
+    padding: 5px 0px;
+}
+}
