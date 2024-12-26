@@ -1,13 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/header/header';
-import Footer from './components/footer/footer';
+import Landing from './pages/landing'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'; 
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Footer />
+      <Landing />
     </div>
   );
 }
