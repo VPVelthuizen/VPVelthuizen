@@ -1,4 +1,43 @@
 .Landing {
-    background-color: #03299b;
-    height: calc(100vh - 194px);
+    background-color: #000000;
+    min-height: calc(100vh - 194px);
+    color: white;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+}   
+
+.selfie {
+    width: 33.33vw;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.aboutMe {
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: larger;
+    text-align: center;
+}
+
+.skills img {
+    width : 100px;
+}
+
+@media (max-width: 800px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .selfie {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .aboutMe {
+        padding: 10;
+    }
 }
