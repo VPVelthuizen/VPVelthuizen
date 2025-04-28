@@ -1,3 +1,4 @@
+// This page is to set up the router to change pages when links are clicked, etc, and to designate the landing as the default page
 import { useState } from 'react'
 import './App.css'
 import Landing from './pages/landing'
