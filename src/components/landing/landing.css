@@ -4,7 +4,8 @@
     color: white;
 }
 
-.about {
+/* This puts the about section to the side of my picture and formats the text */
+.landAbout {
     display: flex;
     align-items: center;
 }   
@@ -23,12 +24,19 @@
     text-align: center;
 }
 
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .skills img {
     width : 100px;
 }
 
 @media (max-width: 800px) {
-    .about {
+    .landAbout {
         flex-direction: column;
     }
 
